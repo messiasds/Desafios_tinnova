@@ -15,9 +15,13 @@ Entrar na pasta Desafios_Tinnova
 
 ## backend
 
-Executar o backend usar o comando 
+Executar o backend usar os comandos: 
 
-java -jar backend/target/web.jar
+Para compilar o JAR
+./mvnw clean & ./mvnw package
+
+Para executar o JAR
+java -jar backend/target/*.jar
 
 acessos das APIS em 127.0.0.1:8080
 
