@@ -19,10 +19,10 @@ Executar o backend usar os comandos:
 
 Para compilar o JAR
 
-** ./mvnw clean & ./mvnw package **
+**./mvnw clean & ./mvnw package**
 
 Para executar o JAR
-** java -jar backend/target/*.jar **
+**java -jar backend/target/*.jar**
 
 acessos das APIS em 127.0.0.1:8080
 
@@ -51,11 +51,14 @@ acessos das APIS em 127.0.0.1:8080
 
 ## frontend
 
-Para executar o frontend foi utilizado o SimpleServer nativo do python3
+Para executar o frontend foi utilizado o módulo SimpleServer nativo do python3
 
-cd frontend
+comandos para executar o projeto: 
 
-python3 -m http.server
 
-acessar 127.0.0.0:8000
+**cd frontend**
+
+**python3 -m http.server**
+
+**acessar 127.0.0.0:8000**
 
