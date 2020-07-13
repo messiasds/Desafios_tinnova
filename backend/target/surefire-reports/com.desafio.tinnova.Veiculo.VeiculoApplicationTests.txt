@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.desafio.tinnova.Veiculo.VeiculoApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.795 s - in com.desafio.tinnova.Veiculo.VeiculoApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.693 s - in com.desafio.tinnova.Veiculo.VeiculoApplicationTests

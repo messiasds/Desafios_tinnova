@@ -3,9 +3,9 @@
 Pasta exercicios contém os exercicos de programaçao básica
 
 
-A pasta frontend contém um mini SPA em vue.js 
+A pasta frontend contém um mini SPA em vue.js sem usar webpack  
 
-A pasta backend contém uma aplicação web feito com springBoot 
+A pasta backend contém uma aplicação web feito com springBoot com banco de dados H2 
 
 # Executando o projeto 
 
@@ -18,33 +18,34 @@ Entrar na pasta Desafios_Tinnova
 Executar o backend usar os comandos: 
 
 Para compilar o JAR
-./mvnw clean & ./mvnw package
+
+** ./mvnw clean & ./mvnw package **
 
 Para executar o JAR
-java -jar backend/target/*.jar
+** java -jar backend/target/*.jar **
 
 acessos das APIS em 127.0.0.1:8080
 
 ## Lista de EndPoints REST
 
-/veiculos - retorna todos
+**/veiculos** - retorna todos
 
 
-/veiculos/{id} - detalhes do veículo / remover veiculo / atualizar
+**/veiculos/{id}** - detalhes do veículo / remover veiculo / atualizar
 
 
-/veiculos/find?by=vendidos - retorna todos os veiculos vendidos
+**/veiculos/find?by=Vendido** - retorna todos os veiculos vendidos
 
 
-/veiculos/find?by=naoVendidos - retorna todos os veiculos não vendidos
+**/veiculos/find?by=naoVendido** - retorna todos os veiculos não vendidos
 
 
-/veiculos/find?by=ultimaSemana - retorna todos os veiculos cadastrados na ultima semana
+**/veiculos/find?by=ultimaSemana** - retorna todos os veiculos cadastrados na ultima semana
 
 
-/veiculos/stats?by=marca - retorna a quantidade de veiculo por marca
+**/veiculos/stats?by=marca** - retorna a quantidade de veiculo por marca
 
-/veiculos/stats?by=decada - retorna a quantidade de veiculo por decada
+**/veiculos/stats?by=decada** - retorna a quantidade de veiculo por decada
 
 
 
