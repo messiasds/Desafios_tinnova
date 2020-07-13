@@ -32,8 +32,13 @@ Para executar o JAR
 
 
 **/veiculos/{id}** - GET - detalhes do veículo 
+
+
 **/veiculos/{id}** - PUT - editar  veículo
+
+
 **/veiculos/{id}** - DELETE - deletar veículo
+
 
 **/veiculos/find?by=Vendido** - retorna todos os veiculos vendidos
 
