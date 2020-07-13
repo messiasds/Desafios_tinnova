@@ -1,0 +1,9 @@
+com/desafio/tinnova/Veiculo/controller/VeiculoController.class
+com/desafio/tinnova/Veiculo/service/VeiculoService.class
+com/desafio/tinnova/Veiculo/model/Veiculo.class
+com/desafio/tinnova/Veiculo/StatsDecada.class
+com/desafio/tinnova/Veiculo/configs/WebConfig.class
+com/desafio/tinnova/Veiculo/StatsMarca.class
+com/desafio/tinnova/Veiculo/repository/VeiculoRepository.class
+com/desafio/tinnova/Veiculo/service/VeiculoServiceImp.class
+com/desafio/tinnova/Veiculo/VeiculoApplication.class
