@@ -1,11 +1,11 @@
-# Desafios tinova
+# Desafios Tinnova
 
-Pasta exercicios contém os exercicos de programaçao básica
+Pasta exercicios contém os exercicos de programação básica
 
 
-A pasta frontend contém um mini SPA em vue.js sem usar webpack  
+A pasta frontend contém um mini SPA em vue.js, sem webpack  
 
-A pasta backend contém uma aplicação web feito com springBoot com banco de dados H2 
+A pasta backend contém uma aplicação web, feita com springBoot com banco de dados H2 
 
 # Executando o projeto 
 
@@ -24,15 +24,16 @@ Para compilar o JAR
 Para executar o JAR
 **java -jar backend/target/*.jar**
 
-acessos das APIS em 127.0.0.1:8080
+**Endereço do backend 127.0.0.1:8080**
 
 ## Lista de EndPoints REST
 
 **/veiculos** - retorna todos
 
 
-**/veiculos/{id}** - detalhes do veículo / remover veiculo / atualizar
-
+**/veiculos/{id}** - GET - detalhes do veículo 
+**/veiculos/{id}** - PUT - editar  veículo
+**/veiculos/{id}** - DELETE - deletar veículo
 
 **/veiculos/find?by=Vendido** - retorna todos os veiculos vendidos
 
