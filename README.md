@@ -1,4 +1,4 @@
-#desafios tinova
+# Desafios tinova
 
 Pasta exercicios contém os exercicos de programaçao básica
 
@@ -7,7 +7,7 @@ A pasta frontend contém um mini SPA em vue.js
 
 A pasta backend contém uma aplicação web feito com springBoot 
 
-#Executando o projeto 
+# Executando o projeto 
 
 Baixar o projeto entrar
 
@@ -19,7 +19,7 @@ Executar o backend usar o comando
 
 java -jar backend/target/web.jar
 
-acessos das apis em 127.0.0.1:8080
+acessos das APIS em 127.0.0.1:8080
 
 ## Lista de EndPoints REST
 
@@ -45,6 +45,8 @@ acessos das apis em 127.0.0.1:8080
 
 
 ## frontend
+
+Para executar o frontend foi utilizado o SimpleServer nativo do python3
 
 cd frontend
 
