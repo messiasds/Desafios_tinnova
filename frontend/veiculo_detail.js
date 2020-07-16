@@ -50,7 +50,7 @@ const veiculo_detail ={
                 Marca: {{ marca }} <br>
                 Ano: {{ ano }} <br>
                 Descrição: {{ descricao }} <br>
-                Vendido: {{ vendido }} <br>
+                Vendido: <input type=checkbox v-model=vendido> <br>
                 
     </div>
 

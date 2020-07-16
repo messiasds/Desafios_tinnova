@@ -25,6 +25,8 @@ const veiculo_form ={
               .then(function (response) {
                 console.log(response);
                 alert("Veículo cadastrado");
+                let id = response.data.id
+                self.$router.push({path: `/veiculo_detail/${id}`})
                   
               })
               .catch(function (error) {

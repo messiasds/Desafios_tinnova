@@ -16,6 +16,7 @@ const routes = [
     { path: '/veiculo_form', component: veiculo_form },
     { path: '/veiculo_detail/:id', component: veiculo_detail},
     { path: '/veiculo_edit/:id', component: veiculo_edit },
+    { path: '/veiculo_stats', component: veiculo_stats}
 ];
 
 
@@ -34,6 +35,7 @@ const app = new Vue({
                 <li class="nav-item" ><router-link to="/" class="nav-link"> Home </router-link></li>
                 <li class="nav-item" ><router-link to="/veiculo_list" class="nav-link"> Listar veiculos </router-link></li>
                 <li class="nav-item" ><router-link to="/veiculo_form" class="nav-link"> Cadastrar veiculo </router-link></li>
+                <li class="nav-item" ><router-link to="/veiculo_stats" class="nav-link"> Stats </router-link></li>
             </ul>
         </nav>
         <div class=container>

@@ -43,14 +43,14 @@ const veiculo_edit = {
 
         editar_veiculo: function(){
             
-            console.log("AGO");
-            console.log(this.dados.descricao);
+            self = this;
             let id = this.dados.id
             let teste = this.dados
             axios.put('http://localhost:8080/veiculos/' + id, teste)
             .then(function (response) {
-                console.log(response);
                 alert("Veiculo atualizado");
+                
+                self.$router.push("/veiculo_list")
             })
             .catch(function (error) {
                 console.log(error)
